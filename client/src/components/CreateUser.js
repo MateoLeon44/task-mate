@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+
+//No es usable para el usuario hacer doble click al usuario para eliminar, sugiero un ícono que realice la acción
 export default class CreateUser extends Component {
   state = {
     users: [],
