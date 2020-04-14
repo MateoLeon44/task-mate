@@ -1,3 +1,5 @@
+[comment]: <> (Es necesario que el readme sea más claro, con una imagen de la plataforma y con una imagen)
+
 # ☑️ Task Mate
 Web application built with the MERN stack. Allows its users to better organize their tasks.
 <hr>
