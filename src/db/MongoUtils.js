@@ -15,6 +15,7 @@ function MongoUtils() {
         return client.connect();
     };
 
+    //No se deben obtener todos los usuarios en una función pública, es posible que sea una posible vulnerabilidad de seguridad.
     mu.getUsers = (query) =>
         mu.connect().then((client) => {
             const clientCol = client.db(dbTaskMate).collection(clientCollection);
